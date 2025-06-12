@@ -1,1 +1,7 @@
-
+ A B | SUM CARRY
+# KERNEL: -------------
+# KERNEL: 0 0 |  0    0
+# KERNEL: 0 1 |  1    0
+# KERNEL: 1 0 |  1    0
+# KERNEL: 1 1 |  0    1
+# RUNTIME: Info: RUNTIME_0068 testbench.sv (35): $finish called.
