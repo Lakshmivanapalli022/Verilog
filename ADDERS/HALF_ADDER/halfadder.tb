@@ -5,7 +5,7 @@ module half_adder_tb;
   wire SUM, CARRY;
 
   // Instantiate the half adder module
-  half_adder_dataflow UUT (
+  half_adder_dataflow dUT (
     .A(A),
     .B(B),
     .SUM(SUM),
@@ -13,7 +13,8 @@ module half_adder_tb;
   );
 
   initial begin
-    // Display header
+    $dumpfile("dump.vcd");
+    $dump(1, half_adder_tb);
     $display("A B | SUM CARRY");
     $display("-------------");
 
