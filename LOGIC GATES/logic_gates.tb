@@ -1,1 +1,18 @@
-
+module testbench();
+reg a, b;
+wire Y_and,y_or,y_not_a,y_xor,y_xnor;  
+  gates tb(a, b, y_and, y_or, y_not_a, y_xor, y_xnor); 
+  
+  initial begin
+    $dumpfile("dump.vcd");
+    $dumpvars(0,testbench);
+    
+    $monitor("time=%0t|a=%b,b=%b,and=%b,or=%b,not a=%b,xnor=%b,xnor=%b",
+             $time,a,b,Y_and,y_or,y_not_a,y_xor,y_xnor);
+    a=0;b=0;
+    #10 a=0;b=1;
+    #10 a=1;b=0;
+    #10 a=1;b=1;
+    #10 $finish;
+  end      
+endmodule
