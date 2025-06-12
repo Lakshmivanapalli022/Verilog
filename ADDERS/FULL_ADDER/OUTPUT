@@ -1,0 +1,9 @@
+# KERNEL: A B C_in| SUM C_out
+# KERNEL: -------------
+# KERNEL: time=0 |A=0| B=0| C_in=0| SUM=0|         C_out=0
+# KERNEL: time=10 |A=0| B=0| C_in=1| SUM=1|         C_out=0
+# KERNEL: time=20 |A=0| B=1| C_in=0| SUM=1|         C_out=0
+# KERNEL: time=30 |A=1| B=0| C_in=0| SUM=1|         C_out=0
+# KERNEL: time=40 |A=1| B=0| C_in=1| SUM=0|         C_out=1
+# KERNEL: time=50 |A=1| B=1| C_in=0| SUM=0|         C_out=1
+# RUNTIME: Info: RUNTIME_0068 testbench.sv (22): $finish called.
