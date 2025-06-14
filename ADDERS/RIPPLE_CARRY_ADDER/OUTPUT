@@ -1,0 +1,5 @@
+# KERNEL: time=0 a=1011 b=1111 cin=1 sum=1011 cout=1 addition=27 
+# KERNEL: time=10 a=0111 b=1000 cin=1 sum=0000 cout=1 addition=16 
+# KERNEL: time=20 a=1001 b=1010 cin=1 sum=0100 cout=1 addition=20 
+# KERNEL: time=30 a=0101 b=0101 cin=1 sum=1011 cout=0 addition=11 
+# RUNTIME: Info: RUNTIME_0068 testbench.sv (34): $finish called.
