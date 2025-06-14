@@ -1,0 +1,8 @@
+# KERNEL: A=0000,B=0000,Cin=1,Cout=0,Sum=00001
+# KERNEL: A=0001,B=0100,Cin=0,Cout=0,Sum=00101
+# KERNEL: A=0011,B=0000,Cin=1,Cout=0,Sum=00100
+# KERNEL: A=0110,B=1110,Cin=0,Cout=1,Sum=10100
+# KERNEL: A=1111,B=1111,Cin=1,Cout=1,Sum=11111
+# KERNEL: A=1000,B=0110,Cin=0,Cout=0,Sum=01110
+# KERNEL: A=0110,B=1101,Cin=1,Cout=1,Sum=10100
+# RUNTIME: Info: RUNTIME_0068 testbench.sv (35): $finish called.
