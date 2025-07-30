@@ -1,6 +1,6 @@
 module half_sub_tb;
 reg a,b;
-wire sum,barrow;
+wire sum,borrow;
 full_sub dut(.a(a),.b(b),.sum(sum),.barrow(barrow));
 initial
 begin
